@@ -1,0 +1,213 @@
+:root{
+  scroll-behavior: smooth;
+  direction: ltr;
+  --primary-theme-color:#704c1e;
+  --secondary-theme-color:#f76653;
+  --primary-button-bg:#fca32d;
+  --secondary-button-bg:#f76653;
+  --primary-light-color:#fff;
+  --primary-dark-color:#090909;
+  --secondary-light-color:#f5f5f5;
+  --secondary-dark-color:#767676;
+  --rounded-5px-radius:5px;
+  --round-circle-radius:50%;
+  --primary-para-font:1rem;
+  --primary-heading-font:2rem;
+  --secondary-para-font:14px;
+  --secondary-heading-font:1.5rem;
+}
+button.btn {
+  padding: 3px 15px;
+  font-size: 14px;
+}
+button.btn.py-1 {
+  font-size: 18px;
+}
+a{
+  color: var(--bs-indigo);
+}
+.mainnav.navbar {
+  background: var(--bs-indigo);
+  color: var(--primary-light-color);
+}
+
+.btn-light:hover{
+  background: var(--primary-dark-color) !important;
+  border-color: var(--primary-dark-color) !important;
+  color: var(--primary-light-color) !important;
+}
+.btn-secondary {
+  background: var(--secondary-button-bg) !important;
+  border-color: var(--secondary-button-bg) !important;
+  color: var(--primary-light-color) !important;
+}
+.btn-primary {
+  background: var(--bs-indigo) !important;
+  border-color: var(--bs-indigo) !important;
+  color: var(--primary-light-color) !important;
+}
+.navbar-brand img {
+  max-height: 45px;
+  object-fit: contain;
+}
+.searchbox-wrap {
+  width: 100%;
+  max-width: 600px;
+  padding-right: 15px;
+}
+.topsearchbox {
+  background: var(--primary-light-color);
+  color: var(--primary-dark-color);
+  border-radius: var(--rounded-5px-radius);
+  overflow: hidden;
+  width: 90%;
+  margin-right: 15px;
+  align-items: center;
+}
+.topsearchbox input.form-control {
+  border: 0px;
+  box-shadow: none !important;
+  border-radius: 0px;
+}
+.search-button {
+  background-color: transparent;
+  display: block;
+  padding: 6px 10px 6px 0px;
+  cursor: pointer;
+}
+.link-wrap.navbar-nav a,
+.link-wrap.navbar-nav a.nav-link {
+  color: var(--primary-light-color);
+  font-size: var(--primary-para-font);
+  padding: 6px 10px;
+  text-decoration: none;
+  transition: all .5s ease-in-out;
+}
+
+.link-wrap.navbar-nav a.dropdown-item {
+  color: var(--secondary-dark-color);
+}
+
+.link-wrap.navbar-nav a:hover,
+.link-wrap.navbar-nav a.nav-link:hover {
+  color: var(--primary-dark-color);
+}
+
+.footer-component {
+  background: var(--primary-theme-color);
+  color: var(--primary-light-color);
+  padding: 25px 0px;
+}
+
+.footer-component .f-link a {
+  color: var(--primary-light-color);
+  font-size: var(--secondary-para-font);
+  text-decoration: none;
+  padding: 3px 10px;
+}
+
+.footer-component h3 {
+  color: var(--primary-light-color);
+  font-size: var(--secondary-heading-font);
+}
+.pprice {
+  position: absolute;
+  display: inline-block;
+  padding: 3px 10px;
+  right: 0;
+  top: 110px;
+  background: var(--bs-indigo);
+  color: var(--primary-light-color);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+span.badgecart.badge {
+  color: var(--primary-dark-color);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.modal.loginModal {
+  overflow: hidden;
+  padding-left: 0px;
+}
+.loginModal .modal-dialog{
+  max-width: 768px;
+}
+
+.loginModal .modal-content {
+  border-radius: 0px;
+  position: relative;
+  overflow: hidden;
+  border: 0px;
+  height: calc(100vh - 50px);
+}
+
+.btn-link.modalclose {
+  background: transparent;
+  border: 0;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 24px;
+  line-height: 28px;
+  z-index: 9;
+  padding: 0px;
+  color: var(--primary-dark-color);
+  box-shadow: none !important;
+}
+.login-bg img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+.overlay{
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;  
+}
+
+.ovtext {
+  color: var(--primary-light-color);
+  background-color: rgba(0,0,0,0.25);
+}
+.btn.btn-link {
+  box-shadow: none !important;
+}
+.btn-link.forgottext {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--bs-indigo);
+}
+
+.reg-box-text h5{
+  color: var(--bs-indigo);
+  font-size: 18px;
+  font-weight: 600;
+}
+.reg-box-text h5 .btn.btn-link{
+  color: var(--bs-indigo);
+  font-size: 18px;
+  font-weight: 600;
+  position: relative;
+  top:-3px;
+}
+.login-form.pt-4 {
+  overflow-y: auto;
+  max-height: 92vh;
+  padding-bottom: 35px;
+  padding-left: 5px;
+}

@@ -1,0 +1,10 @@
+.pageNotFound {
+    background: url(../../Assets/Images/404notfound.png) no-repeat center 18vh ; 
+    background-size: 30vw;
+    height: 100vh;
+    width: 100%;
+    padding: 25px 25px 18vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
